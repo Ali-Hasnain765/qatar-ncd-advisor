@@ -2,7 +2,7 @@
 
 A clinical decision-support prototype for Primary Health Care physicians in Qatar, built with
 Streamlit and Google Gemini. A physician enters patient notes, and the app answers **only**
-from a real, retrievable guideline PDF — with page-accurate citations, explicit handling of
+from a real, retrievable guideline PDF with page-accurate citations, explicit handling of
 missing information and clinical conflicts, and a full English/Arabic bilingual UI.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -15,7 +15,7 @@ missing information and clinical conflicts, and a full English/Arabic bilingual 
 Qatar's Primary Health Care physicians manage a high caseload of Type 2 Diabetes and
 Hypertension under severe time pressure, while clinical guidelines run to 100+ pages and are
 updated frequently. This project explores whether a Retrieval-Augmented Generation (RAG)
-system can give a guideline-concordant answer in seconds — while staying honest about what
+system can give a guideline-concordant answer in seconds while staying honest about what
 it doesn't know, rather than quietly hallucinating a confident-sounding answer.
 
 ## Screenshots
